@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Loopstudios landing page</title>
 
@@ -12,34 +12,39 @@
   <script defer src="./js/script.js"></script>
 
 </head>
-<body>
-  <header>
+<body class="text-base">
+  <header class="relative flex flex-col justify-between text-white w-screen h-full">
     <figure>
-      <img src="./assets/images/mobile/image-hero.jpg" alt="VR car game picture"
-      srcset="
+      <img 
+        class="w-full h-auto"
+        src="./assets/images/mobile/image-hero.jpg"
+        alt="VR car game picture"
+        srcset="
           ./assets/images/mobile/image-hero.jpg 480w,
           ./assets/images/desktop/image-hero.jpg 1200w"
-          sizes="(max-width: 767px) 100vw, 1200px">
+        sizes="(max-width: 767px) 100vw, 1200px">
     </figure>
-    <div>
-      <figure>
-        <a href="#">
-          <img src="./assets/images/logo.svg" alt="Logo Loopstudios">
-        </a>
-      </figure>
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>Careers</li>
-          <li>Events</li>
-          <li>Products</li>
-          <li>Support</li>
-        </ul>
-      </nav>
+    <div class="absolute inset-0 flex flex-col justify-start gap-16 p-12">
+      <div class="flex flex-row justify-between items-center">
+        <figure>
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="Logo Loopstudios">
+          </a>
+        </figure>
+        <nav>
+          <ul class="flex flex-row gap-6 font-bold">
+            <li>About</li>
+            <li>Careers</li>
+            <li>Events</li>
+            <li>Products</li>
+            <li>Support</li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="border-white border-2 uppercase text-4xl p-4 w-1/2">Immersive experiences that deliver</h1>
     </div>
-    <h1>Immersive experiences that deliver</h1>
   </header>
-  <main>
+  <main class="hidden">
     <section>
       <figure>
         <img src="./assets/images/mobile/image-interactive.jpg" alt="People using VR" 
@@ -141,7 +146,7 @@
       </article>      
     </section>
   </main>
-  <footer>
+  <footer class="hidden">
     <div>
       <figure>
       <a href="#">
