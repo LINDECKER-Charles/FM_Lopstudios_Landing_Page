@@ -48,13 +48,15 @@
     }
     #card-collection article:hover{
         @apply cursor-pointer
-        -translate-y-2 shadow-4xl;
+        -translate-y-2 shadow-2xl;
     }
     #card-collection figure {
         @apply w-full h-full -z-10;
     }
     #card-collection h3 {
-        @apply text-white uppercase text-3xl absolute bottom-0 py-7 px-12 bg-gradient-to-t from-black/70 to-transparent;
+        @apply text-white uppercase text-2xl flex items-end md:text-3xl absolute bottom-0 py-4 md:py-7 px-6 md:px-12 w-1/2 h-full md:w-full 
+        md:bg-gradient-to-t md:from-black/70 md:to-transparent
+        bg-gradient-to-r from-black/70 to-transparent;
     }
 }
 
