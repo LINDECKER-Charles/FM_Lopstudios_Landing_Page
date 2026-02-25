@@ -33,23 +33,23 @@
             <img src="./assets/images/logo.svg" alt="Logo Loopstudios">
           </a>
         </figure>
-        <button class="hover:cursor-pointer z-50">
+        <button class="hover:cursor-pointer z-50" aria-label="mobile menu button">
           <img id="openBtn" class="md:hidden" 
           src="./assets/images/icon-hamburger.svg" alt="mobile menu open button">
           <img id="closeBtn" class="hidden" 
           src="./assets/images/icon-close.svg" alt="mobile menu close button">
         </button>
-        <nav 
+        <nav role="navigation" aria-label="main navigation"
           id="nav"
           class="hidden absolute inset-0 bg-black flex flex-col justify-center items-center gap-8 text-2xl uppercase font-bold z-40
           md:static md:flex md:flex-row md:gap-6 md:text-base md:bg-transparent md:justify-end"
         >
           <ul class="flex flex-col gap-8 md:flex-row md:gap-6">
-            <li>About</li>
-            <li>Careers</li>
-            <li>Events</li>
-            <li>Products</li>
-            <li>Support</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
           </ul>
         </nav>
       </div>
@@ -185,13 +185,13 @@
           <img src="./assets/images/logo.svg" alt="Logo Loopstudios">
         </a>
       </figure>
-      <nav>
+      <nav role="navigation" aria-label="footer navigation">
         <ul class="flex flex-col md:flex-row items-center justify-center gap-8">
-          <li>About</li>
-          <li>Careers</li>
-          <li>Events</li>
-          <li>Products</li>
-          <li>Support</li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
         </ul>
       </nav>
     </div>
