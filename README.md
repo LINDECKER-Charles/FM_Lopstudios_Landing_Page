@@ -13,13 +13,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/screenshot.png)
-![](./screenshot/screenshot-responsive.png)
+![](./screenshot/screenshot_1.png)
+![](./screenshot/screenshot_2.png)
+![](./screenshot/screenshot_3.png)
+![](./screenshot/screenshot_4.png)
+![](./screenshot/screenshot-responsive_1.png)
+![](./screenshot/screenshot-responsive_2.png)
+![](./screenshot/screenshot-responsive_3.png)
+![](./screenshot/screenshot-responsive_4.png)
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/LINDECKER-Charles/FM-FAQAccordion)
-- Live Site URL: [Live site URL](https://fm-faq-accordion-beige.vercel.app)
+- Solution URL: [Solution URL](https://lindecker-charles.github.io/FM_Lopstudios_Landing_Page/)
+- Live Site URL: [Live site URL](https://github.com/LINDECKER-Charles/FM_Lopstudios_Landing_Page)
 
 ## My process
 
